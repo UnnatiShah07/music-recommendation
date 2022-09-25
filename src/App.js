@@ -47,7 +47,8 @@ export default function App() {
       <div className="header-div">
         <div className="header">🎶 Ear's Delight 🎶</div>
         <div className="sub-header">
-          Ear's delight suggest you some soulful songs to make you mood.
+          Ear's delight suggest you some soulful songs. Check different genres
+          of music and see which list of songs its suggest.
         </div>
       </div>
 
