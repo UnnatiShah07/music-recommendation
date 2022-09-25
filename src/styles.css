@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css2?family=Abyssinica+SIL&display=swap");
+
+:root {
+  --primary-color: #735bc1;
+}
+
+.App {
+  font-family: "Abyssinica SIL", serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.header-div {
+  display: block;
+  width: 500px;
+  text-align: left;
+}
+
+.header {
+  padding: 1rem;
+  font-size: 30px;
+  padding-left: 0;
+}
+
+.sub-header {
+  font-size: 15px;
+}
+
+.category {
+  margin-top: 2rem;
+  margin-left: 1rem;
+}
+
+.selected-btn {
+  text-transform: capitalize;
+  padding: 10px 20px;
+  border-radius: 30px;
+  background-color: var(--primary-color);
+  margin-right: 10px;
+  border: 0;
+  color: white;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.btn {
+  text-transform: capitalize;
+  padding: 10px 20px;
+  border-radius: 30px;
+  border: 1px solid var(--primary-color);
+  background-color: white;
+  margin-right: 10px;
+  color: var(--primary-color);
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.card-div {
+  margin-top: 1rem;
+}
+
+.card {
+  width: 500px;
+  border: 1px solid var(--primary-color);
+  border-radius: 0.5rem;
+  margin: 1rem 0;
+  padding: 0.5rem 1rem;
+}
+
+.song-name {
+  font-size: 18px;
+  font-weight: bold;
+  margin-block-end: 0;
+  margin-block-start: 0;
+}
+
+.song-views {
+  font-size: 15px;
+  margin-block-end: 0;
+  margin-block-start: 0;
+  margin-top: 0.5rem;
+}
